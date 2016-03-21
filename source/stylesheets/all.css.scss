@@ -1,0 +1,35 @@
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External Frameworks
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Our CSS
+@import "layout/*";
+@import "components/*";
+@import "pages/*";
+@import "vendor/*";
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #616668;
+}
+a {
+  color: #CC7330;
+}
+a:hover{
+  text-decoration: none;
+  color: #616668;
+}
+.fa {
+  color: #CC7330;
+}

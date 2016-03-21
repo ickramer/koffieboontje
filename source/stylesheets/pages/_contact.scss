@@ -1,0 +1,29 @@
+.list-contacts {
+  list-style: none;
+  padding-left: 0;
+  margin: 2em 0;
+}
+.list-contacts li {
+  margin-bottom: 10px;
+  display: table;
+  color: #616668;
+  a{
+    color: #616668;
+  }
+}
+.list-contacts [class*="fa-"] {
+  margin-right: 15px;
+  display: table-cell;
+  width: 30px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .list-contacts {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 2em;
+  }
+  #contactForm .form-control[name="name"] {
+    margin-bottom: 0;
+  }
+}

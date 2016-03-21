@@ -1,0 +1,23 @@
+#footer {
+  background-color: #F0D7C3;
+  p{
+    margin: 2px;
+  }
+}
+.fb {
+  a{
+    color: #616668;
+    &:hover{
+      color: #CC7330;
+    }
+  }
+  .fa {
+    color: #616668;
+    &:hover{
+      color: #CC7330;
+    }
+  }
+}
+  .address{
+    margin-top: 20px;
+  }

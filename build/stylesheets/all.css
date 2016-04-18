@@ -9936,27 +9936,39 @@ button.close {
 
 /* line 1, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
 #footer {
+  padding: 50px 50px 5px 50px;
   background-color: #F0D7C3; }
-  /* line 3, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  /* line 4, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
   #footer p {
     margin: 2px; }
+  /* line 7, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  #footer h5 {
+    font-weight: 600;
+    letter-spacing: 1px; }
 
-/* line 8, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+/* line 13, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
 .fb a {
   color: #616668; }
-  /* line 10, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  /* line 15, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
   .fb a:hover {
     color: #CC7330; }
-/* line 14, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+/* line 19, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
 .fb .fa {
   color: #616668; }
-  /* line 16, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  /* line 21, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
   .fb .fa:hover {
     color: #CC7330; }
 
-/* line 21, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
-.address {
-  margin-top: 20px; }
+/* line 26, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+.footer-openinghours {
+  color: #616668; }
+  /* line 28, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  .footer-openinghours ul {
+    list-style-type: none;
+    padding: 0; }
+  /* line 32, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
+  .footer-openinghours li {
+    margin: 2px; }
 
 /* Main class */
 /* line 3, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_navbar.css.scss */

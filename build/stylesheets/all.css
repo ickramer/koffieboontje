@@ -9936,7 +9936,7 @@ button.close {
 
 /* line 1, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
 #footer {
-  padding: 50px 50px 5px 50px;
+  padding: 50px 25px 5px 25px;
   background-color: #F0D7C3; }
   /* line 4, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/layout/_footer.css.scss */
   #footer p {
@@ -10183,7 +10183,7 @@ button.close {
 
 /* line 53, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-container-right {
-  max-width: 500px;
+  max-width: 450px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10402,21 +10402,29 @@ button.close {
   height: 60px; }
 
 /* line 1, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+.wrapper-contact {
+  margin: 20px 0; }
+
+/* line 4, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+.direct-message {
+  margin: 25px 0; }
+
+/* line 7, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
 .list-contacts {
   list-style: none;
   padding-left: 0;
-  margin: 2em 0; }
+  margin: 25px 0; }
 
-/* line 6, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+/* line 12, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
 .list-contacts li {
   margin-bottom: 10px;
   display: table;
   color: #616668; }
-  /* line 10, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+  /* line 16, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
   .list-contacts li a {
     color: #616668; }
 
-/* line 14, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+/* line 20, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
 .list-contacts [class*="fa-"] {
   margin-right: 15px;
   display: table-cell;
@@ -10424,13 +10432,13 @@ button.close {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 21, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+  /* line 27, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
   .list-contacts {
     list-style: none;
     padding-left: 0;
     margin-top: 2em; }
 
-  /* line 26, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
+  /* line 32, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
   #contactForm .form-control[name="name"] {
     margin-bottom: 0; } }
 /* line 1, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_home.scss */

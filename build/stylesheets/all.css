@@ -10401,6 +10401,27 @@ button.close {
   width: 120px;
   height: 60px; }
 
+/* line 28, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.about-statement {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
+
+/* line 34, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.carousel-inner > .item > img {
+  max-height: 600px;
+  margin: auto; }
+
+/* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.carousel-caption h3 {
+  text-align: left;
+  color: white; }
+/* line 43, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.carousel-caption p {
+  text-align: left;
+  color: white; }
+
 /* line 1, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_contact.scss */
 .wrapper-contact {
   margin: 20px 0; }
@@ -10478,7 +10499,7 @@ button.close {
   text-align: center;
   background-color: #EFEBE9; }
   /* line 5, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
-  .menu-tabbar span {
+  .menu-tabbar a span {
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -10489,15 +10510,101 @@ button.close {
     border-radius: 4px;
     padding: 15px 20px; }
   /* line 16, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
-  .menu-tabbar a:hover {
-    color: rgba(204, 115, 48, 0.75); }
-  /* line 19, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
   .menu-tabbar .active {
     color: white;
     text-shadow: #CC7330 0em 0em 0.2em;
     background-color: #f0d7c3;
-    text-decoration: none;
     text-align: center; }
+    /* line 21, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+    .menu-tabbar .active:hover {
+      color: #616668;
+      text-shadow: none; }
+
+/* line 27, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-card-wrap {
+  background-color: #EFEBE9;
+  max-width: 95%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 50px 0; }
+  /* line 34, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+  .menu-card-wrap ul {
+    list-style-type: none;
+    padding: 0; }
+
+/* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-card {
+  background-color: white;
+  border: 10px solid #EFEBE9;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 40rem) {
+    /* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+    .menu-card {
+      width: 50%; } }
+  @media (min-width: 56rem) {
+    /* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+    .menu-card {
+      width: 33.3333%; } }
+
+/* line 54, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-card-content {
+  padding: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  overflow: hidden; }
+
+/* line 60, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-category {
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 21px;
+  letter-spacing: -1px; }
+
+/* line 66, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-details {
+  margin-top: 10px; }
+
+/* line 69, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-title {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: .9; }
+
+/* line 74, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-prize {
+  font-size: 17px;
+  padding: 0 10px;
+  font-weight: 300;
+  opacity: .9; }
+
+/* line 80, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-description {
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-weight: 100;
+  opacity: .8; }
+
+/* line 86, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-additional-info {
+  width: 100%;
+  font-style: italic; }
 
 /*
 ==============================================
@@ -11391,3 +11498,7 @@ a:hover {
 /* line 33, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/all.css.scss */
 .fa {
   color: #CC7330; }
+
+/* line 36, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/all.css.scss */
+a, a:hover, a:active, a:visited {
+  text-decoration: none; }

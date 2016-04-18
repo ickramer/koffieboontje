@@ -6,45 +6,56 @@ title: Contact
     <h2>Stuur een mail of kom gezellig langs</h2>
   </div>
 </div>
-<div class="container padded">
-  <div class="row">
-    <div class="col-xs-6 col-sm-5">
-      <div class="table-bg" style="background: linear-gradient(-225deg, rgba(204,115,48,0.4) 0%, rgba(85,78,72,0.6) 50%), url('images/tables.jpg'); width:100%; height: 0;">
+
+<div class="wrapper-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
         <ul class="list-contacts">
-          <li><i class="fa fa-home"></i><p>Amelbergastraat 35</p>
-          <p>2240 Zandhoven</p>
-          <p>België</p></li>
-          <li><i class="fa fa-phone"></i> +32 476569063</li>
-          <li><i class="fa fa-envelope-o"></i> <a href="mailto:jolien_gabriels@hotmail.com">het.koffieboontje@telenet.be</a></li>
+          <li>
+            <i class="fa fa-home"></i>
+            <p>Amelbergastraat 35</p>
+            <p>2240 Zandhoven</p>
+            <p>België</p>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i> 
+            +32 476569063
+          </li>
+          <li>
+            <i class="fa fa-envelope-o"></i> 
+            <a href="mailto:jolien_gabriels@hotmail.com">het.koffieboontje@telenet.be</a>
+          </li>
         </ul>
       </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-6">
-      <form action="#" class="form-booking">
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="form-group">   
-              <input type="text" class="form-control" placeholder="naam">
+      <div class="col-xs-12 col-sm-7">
+        <form action="https://formspree.io/ick.kramer@gmail.com" method="POST" class="form-booking direct-message">
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="form-group">   
+                <input type="text" name="name" class="form-control" placeholder="naam">
+              </div>
+            </div>
+            <div class="col-xs-8">
+              <div class="form-group">   
+                <input type="email" name="_replyto" class="form-control" placeholder="email">
+              </div>
             </div>
           </div>
-          <div class="col-xs-8">
-            <div class="form-group">   
-              <input type="text" class="form-control" placeholder="email">
+          <div class="row">
+            <div class="col-xs-12">
+              <textarea name="message" class="form-group form-control" rows="3" placeholder="typ hier uw berichtje"></textarea>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <textarea name="message" class="form-group form-control" rows="5" placeholder="typ hier uw berichtje"></textarea>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="text" name="_gotcha" style="display:none">
+              <input type="submit" class="btn btn-contact" style="width: 100%" value="Verzend">
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <input type="submit" class="btn btn-contact" style="width: 100%" value="Verzend">
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
 </div>

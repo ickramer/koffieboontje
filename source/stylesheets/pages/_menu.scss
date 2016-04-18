@@ -2,7 +2,7 @@
   margin-top: -11px;
   text-align: center;
   background-color: #EFEBE9;
-  span{
+  a span{
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -13,14 +13,77 @@
     border-radius: 4px;
     padding: 15px 20px;
   }
-  a:hover{
-    color: rgba(204, 115, 48, 0.75);
-  }
   .active{
     color: white;
     text-shadow: #CC7330 0em 0em 0.2em;
     background-color: rgb(240, 215, 195);
-    text-decoration: none;
     text-align: center;
+    &:hover{
+      color: #616668;
+      text-shadow: none;
+    }
   }
+}
+.menu-card-wrap{
+  background-color: #EFEBE9;
+  max-width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 50px 0;
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+}
+.menu-card{
+  background-color: white;
+  border: 10px solid #EFEBE9;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.02);
+  border-radius: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+.menu-card-content{
+  padding: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+.menu-category{
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 21px;
+  letter-spacing: -1px;
+}
+.menu-details{
+  margin-top: 10px;
+}
+.menu-title{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: .9;
+}
+.menu-prize{
+  font-size: 17px;
+  padding: 0 10px;
+  font-weight: 300;
+  opacity: .9;
+}
+.menu-description{
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-weight: 100;
+  opacity: .8;
+}
+.menu-additional-info{
+  width: 100%;
+  font-style: italic;
 }

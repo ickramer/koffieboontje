@@ -10409,15 +10409,22 @@ button.close {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07); }
 
 /* line 34, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+#myCarousel {
+  background-color: #EFEBE9;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 40, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-inner > .item > img {
   max-height: 600px;
   margin: auto; }
 
-/* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 45, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption h3 {
   text-align: left;
   color: white; }
-/* line 43, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 49, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption p {
   text-align: left;
   color: white; }

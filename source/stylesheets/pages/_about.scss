@@ -30,10 +30,21 @@
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  p{
+    color:rgba(97, 102, 104, 0.7);
+  }
+  .product-link img{
+    width: 85%;
+    margin: 2%;
+  }
+}
+.products{
+  display: flex;
 }
 #myCarousel{
   background-color: #EFEBE9;
-  width: 75%;
+  width: 70%;
+  height: 40%;
   margin-left: auto;
   margin-right: auto;
 }

@@ -113,6 +113,27 @@
   </div>
 </div>
 
+<div id="map" style="width: 100%;height: 400px;"></div>
+<script>
+  function initMap() {
+    var styles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#6195a0"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#0099b1"},{"visibility":"on"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#fac9a9"},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#787878"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#eaf6f8"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#eaf6f8"}]}];
+    var myLatLng = {lat: 51.216613, lng: 4.66279};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: myLatLng,
+      scrollwheel:  false,
+      styles: styles
+    });
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Het Koffieboontje!'
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+async defer></script>
+
     <div id="footer">
   <div class="container">
     <div class="row">
@@ -148,7 +169,7 @@
           </ul>
         </div>
         <div class="col-xs-12 col-md-6">
-          <p class="text-muted pull-right">© Iris Kramer. All rights reserved</p>
+          <p class="text-muted pull-right"><a href="http://iriskramer.com/">© Iris Kramer</a></p>
         </div>
       </div>
     </div>

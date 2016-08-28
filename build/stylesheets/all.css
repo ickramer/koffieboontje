@@ -10433,13 +10433,14 @@ button.close {
 /* line 51, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-inner > .item > img {
   max-height: 600px;
-  margin: auto; }
+  margin: auto;
+  width: 100%; }
 
-/* line 56, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 57, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption h3 {
   text-align: left;
   color: white; }
-/* line 60, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 61, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption p {
   text-align: left;
   color: white; }

@@ -10425,22 +10425,31 @@ button.close {
 /* line 44, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 #myCarousel {
   background-color: #EFEBE9;
-  width: 70%;
-  height: 40%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 51, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 50, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-inner > .item > img {
   max-height: 600px;
   margin: auto;
   width: 100%; }
 
-/* line 57, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 55, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, #633821 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: linear-gradient(to right, #633821 0%, rgba(0, 0, 0, 0.0001) 100%); }
+
+/* line 58, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, #633821 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, #633821 100%); }
+
+/* line 62, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption h3 {
   text-align: left;
   color: white; }
-/* line 61, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
+/* line 66, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_about.scss */
 .carousel-caption p {
   text-align: left;
   color: white; }

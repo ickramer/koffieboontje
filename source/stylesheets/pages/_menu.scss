@@ -90,3 +90,67 @@
   width: 100%;
   font-style: italic;
 }
+
+.menu-card-wrap-advice{
+  background-color: #EFEBE9;
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  ul{
+    list-style-type: none;
+    padding: 0;
+  }
+}
+.menu-advice{
+  display: flex;
+}
+.menu-advice-avatar img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d89b6e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
+}
+.menu-advice-quote{
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  margin-left: 30px;
+  i{
+    margin: 0 5px;
+  }
+}
+.menu-advice-right{
+  display: flex;  
+  margin-left: auto;
+  .banner-card{
+    margin-left: auto;
+    text-align: right;
+  }
+}
+.menu-advice-right-avatar img{
+  width: 80px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 -1px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d89b6e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
+}
+.menu-advice-right-quote{
+  font-size: 18px;
+  text-align: right;
+  margin: auto;
+  margin-right: 30px;
+  i{
+    margin: 0 5px;
+  }
+}

@@ -10113,7 +10113,7 @@ button.close {
 
 /* Banner design */
 /* line 3, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
-.banner {
+.banner-main {
   position: relative;
   text-align: center;
   height: 400px;
@@ -10131,19 +10131,57 @@ button.close {
       -ms-flex-pack: center;
           justify-content: center; }
   /* line 11, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
-  .banner h1 {
+  .banner-main h1 {
     color: white;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
   /* line 17, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
-  .banner p {
+  .banner-main p {
     font-size: 25px;
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 50px; }
 
 /* line 24, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+.banner {
+  position: relative;
+  text-align: center;
+  height: 630px;
+  background-size: cover !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  /* line 32, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  .banner h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+  /* line 38, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  .banner p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px; }
+
+/* line 45, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+.banner-content h2 {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  margin-top: 0px;
+  color: white;
+  font-size: 40px; }
+
+/* line 51, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-info {
   position: absolute;
   z-index: 100;
@@ -10155,11 +10193,11 @@ button.close {
   top: 0px;
   height: 60px;
   width: 100%; }
-  /* line 35, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 62, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-info h5 {
     color: white; }
 
-/* line 39, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 66, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-container {
   max-width: 500px;
   display: -webkit-box;
@@ -10167,7 +10205,7 @@ button.close {
   display: -ms-flexbox;
   display: flex; }
 
-/* line 43, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 70, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-card {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10181,56 +10219,54 @@ button.close {
   position: relative;
   margin-top: 20px; }
 
-/* line 53, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 80, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-container-right {
-  max-width: 450px;
+  max-width: 500px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-left: auto; }
-  /* line 57, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 84, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-container-right .banner-card {
     margin-left: auto;
     text-align: right; }
 
-/* line 62, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 89, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-card-content {
   padding: 30px;
   padding-bottom: 10px; }
 
-/* line 66, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 93, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-card-title {
   font-weight: 600;
   line-height: 1.1;
   font-size: 21px;
   letter-spacing: -1px; }
 
-/* line 72, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 99, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-card-summary {
   font-size: 16px;
-  padding-top: 20px;
-  padding-bottom: 5px;
   font-weight: 100;
   opacity: .8; }
-  /* line 78, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 105, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-card-summary i {
     margin: 0 5px; }
-  /* line 81, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 108, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-card-summary ul {
     list-style-type: none;
     padding: 0; }
 
-/* line 86, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 113, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-openingstijden {
   margin-right: auto;
   margin: auto; }
 
-/* line 90, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 117, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-footer {
   padding-bottom: 40px; }
 
-/* line 93, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 120, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-author {
   margin-top: 10px;
   display: -webkit-box;
@@ -10244,7 +10280,7 @@ button.close {
       -ms-flex-align: center;
           align-items: center; }
 
-/* line 100, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 127, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-avatar img {
   border-radius: 50%;
   width: 45px;
@@ -10252,36 +10288,36 @@ button.close {
   -o-object-fit: cover;
      object-fit: cover; }
 
-/* line 106, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 133, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-infos {
   text-align: left;
   margin-left: 10px; }
 
-/* line 110, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 137, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-author-name {
   font-weight: 300; }
 
-/* line 113, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 140, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-author-date {
   font-size: 14px;
   opacity: .7; }
 
-/* line 117, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 144, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-paper-link {
   position: absolute;
   right: 30px;
   bottom: 25px;
   color: #CC7330; }
-  /* line 122, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 149, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-news-paper-link i {
     margin-left: 5px; }
 
-/* line 126, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 153, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-paper {
   width: 150px;
   margin-left: auto; }
 
-/* line 130, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 157, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-news-link {
   position: absolute;
   left: 0;
@@ -10290,12 +10326,12 @@ button.close {
   z-index: 1;
   right: 0; }
 
-/* line 138, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 165, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-small {
   height: 300px;
   width: 100%; }
 
-/* line 142, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+/* line 169, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
 .banner-pages {
   height: 150px;
   background-size: cover !important;
@@ -10312,7 +10348,7 @@ button.close {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  /* line 149, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
+  /* line 176, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/components/_banner.scss */
   .banner-pages h2 {
     margin: 0;
     color: white;
@@ -10517,15 +10553,20 @@ button.close {
   height: 140px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d89b6e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px; }
 
-/* line 18, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_home.scss */
+/* line 23, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_home.scss */
 .welcome-statement-quote {
   font-size: 18px;
   text-align: left;
   margin: auto;
   margin-left: 30px; }
-  /* line 23, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_home.scss */
+  /* line 28, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_home.scss */
   .welcome-statement-quote i {
     margin: 0 5px; }
 
@@ -10645,6 +10686,90 @@ button.close {
 .menu-additional-info {
   width: 100%;
   font-style: italic; }
+
+/* line 94, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-card-wrap-advice {
+  background-color: #EFEBE9;
+  max-width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 auto; }
+  /* line 100, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+  .menu-card-wrap-advice ul {
+    list-style-type: none;
+    padding: 0; }
+
+/* line 105, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 108, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d89b6e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px; }
+
+/* line 119, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice-quote {
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  margin-left: 30px; }
+  /* line 124, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+  .menu-advice-quote i {
+    margin: 0 5px; }
+
+/* line 128, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto; }
+  /* line 131, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+  .menu-advice-right .banner-card {
+    margin-left: auto;
+    text-align: right; }
+
+/* line 136, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice-right-avatar img {
+  width: 80px;
+  height: 85px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 -1px;
+     object-position: 0 -1px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #d89b6e;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px; }
+
+/* line 148, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+.menu-advice-right-quote {
+  font-size: 18px;
+  text-align: right;
+  margin: auto;
+  margin-right: 30px; }
+  /* line 153, /Users/ick.kramer/code/ICKramer/koffieboontje/source/stylesheets/pages/_menu.scss */
+  .menu-advice-right-quote i {
+    margin: 0 5px; }
 
 /*
 ==============================================
